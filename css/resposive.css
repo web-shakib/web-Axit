@@ -1,0 +1,913 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width:1400px) {
+    #social-media .col-md-4 {
+        width: 35.333333%;
+    }
+    #social-media .col-md-8 {
+        width: 64.666667%;
+    }
+    .sm-left p{
+        margin-right: 100px;
+    }
+    .fb-left p {
+        margin-right: 100px;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width:1399px) {
+
+/* CSS */
+#first-banare {
+    padding: 160px 0;
+}
+#social-media .col-md-4 {
+    width: 35.333333%;
+}
+#social-media .col-md-8 {
+    width: 64.666667%;
+}
+.socil-icon ul li {
+    margin-left: 20px;
+}
+.fb-left p {
+    margin-right: 100px;
+}
+.f3-right .dots {
+    left: 26px;
+}
+
+
+
+}
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* CSS */
+#first-banare {
+    padding: 120px 0;
+}
+.f-banner1{
+    display: none;
+}
+#social-media .col-md-4 {
+    width: 35.333333%;
+}
+#social-media .col-md-8 {
+    width: 64.666667%;
+}
+.socil-icon ul li {
+    margin-left: 0px;
+}
+.fb-left h1 {
+
+    margin-right: 0px;
+    font-size: 30px;
+}
+.fb-left p {
+    margin-right: 100px;
+}
+.test-1 .mx-5 {
+    margin-right: 1rem!important;
+    margin-left: 1rem!important;
+}
+
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* CSS */
+#first-banare {
+    padding: 120px 0;
+}
+#social-media .col-md-4 {
+    width: 40.333333%;
+}
+#social-media .col-md-8 {
+    width: 59.666667%;
+}
+.socil-icon ul li {
+    margin-left: 0px;
+}
+.fb-left img{
+    width: 120px;
+}
+.fb-left h1 {
+
+    margin-right: 0px;
+    font-size: 24px;
+}
+.nav-item {
+    margin-left: 0px;
+}
+.fb-left p {
+    margin-right: 0px;
+}
+.socil-icon ul li a i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 36px;
+}
+.b-item1 h1 {
+    padding: 20px 22px;
+}
+.tab-1, .tab-2, .tab-3 {
+    width: 100px;
+    height: 90px;
+    line-height: 90px;
+}
+#feature-2,#feature-3,#our-process,#testimonial{
+    padding: 80px 0 100px 0;
+}
+.f1-middile p {
+    margin: 16px 0;
+}
+.f2-row{
+    flex-direction: column-reverse;
+}
+.f2-right{
+    padding: 20px 100px;
+}
+.f2-left{
+    text-align: center;
+    margin-top: 20px;
+}
+.dots {
+    position: absolute;
+    top: -6px;
+    left: 150px;
+}
+.f3-right .dots {
+    left: 150px;
+}
+.main-bottom .px-4 {
+    padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+}
+.main-bottom .py-5 {
+    padding-bottom: 0rem!important;
+}
+.test-1 .mx-5 {
+    margin-right: 0rem!important;
+    margin-left: 0rem!important;
+}
+.test-1 .my-4 {
+    margin-bottom: 0rem!important;
+}
+
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+/* CSS */
+
+}
+
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 767px) and (max-width: 768px)  {
+    .pricing-bottom  .mx-5{
+        margin-left: 5rem !important;
+        margin-right: 5rem !important;
+    }
+    .nav-item {
+        margin-left: 0px;
+    }
+    #first-banare {
+        padding: 120px 0 60px 0;
+    }
+    #social-media .col-md-4 {
+        width: 40.333333%;
+    }
+    #social-media .col-md-8 {
+        width: 59.666667%;
+    }
+    .socil-icon ul li {
+        margin-left: 0px;
+    }
+    .sm-left p{
+        font-size: 12px;
+    }
+    .fb-left img{
+        width: 120px !important;
+    }
+    .fb-left h1 {
+    
+        margin-right: 0px;
+        font-size: 28px;
+    }
+    .fb-left p {
+        margin-right: 0px;
+    
+    }
+    .fb-right {     
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .b-form{
+        width: 95%;
+    }
+    .socil-icon ul li a i {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 28px;
+    }
+    .b-item1 h1 {
+        padding: 20px 22px;
+    }
+    .tab-1, .tab-2, .tab-3 {
+        width: 80px;
+        height: 70px;
+        line-height: 70px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+    #feature-1 {
+        padding: 50px 0;
+    }
+    .f1-left{
+        text-align: center;
+    }
+    #feature-2,#feature-3,#our-process,#testimonial{
+        padding: 80px 0 100px 0;
+    }
+    .f1-middile {
+        text-align: center;
+        margin-top: 30px;
+        padding: 0 50px;
+    }
+    .f1-right{
+        text-align: center;
+        margin-top: 40px;
+    
+    }
+    .f1-middile p {
+        margin: 16px 0;
+    }
+    .f2-row{
+        flex-direction: column-reverse;
+    }
+    .f2-right{
+        padding: 20px 100px;
+    }
+    .f2-left{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .f2-text {
+        padding: 0 0 0 50px;
+    }
+    .dots {
+        top: -6px;
+        left: 60px;
+    }
+    .f3-right .dots {
+        left: 60px;
+    }
+    .main-bottom .px-4 {
+        padding-right: 3.5rem!important;
+        padding-left: 3.5rem!important;
+    }
+    .main-top h1 {
+        font-size: 32px;
+    }
+    
+    .main-bottom .py-5 {
+        padding-bottom: 0rem!important;
+    }
+    .test-1 .mx-5 {
+        margin-right: 5rem!important;
+        margin-left: 5rem!important;
+    }
+    .test-1 .my-4 {
+        margin-bottom: 0rem!important;
+    }
+    .custom-p{
+        margin: 0 90px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+/* CSS */
+.pricing-bottom  .mx-5{
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+}
+.nav-item {
+    margin-left: 0px;
+}
+#first-banare {
+    padding: 120px 20px 60px 20px;
+
+}
+#social-media .col-md-4 {
+    width: 40.333333%;
+}
+#social-media .col-md-8 {
+    width: 59.666667%;
+}
+.socil-icon ul li {
+    margin-left: 0px;
+}
+.sm-left p{
+    font-size: 12px;
+}
+.fb-left img{
+    width: 120px !important;
+}
+.fb-left h1 {
+
+    margin-right: 0px;
+    font-size: 28px;
+}
+.fb-left p {
+    margin-right: 80px;
+
+}
+.fb-right {     
+    justify-content: center;
+    margin-top: 60px;
+}
+.b-form{
+    width: 80%;
+}
+.socil-icon ul li a i {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 28px;
+}
+.b-item1 h1 {
+    padding: 20px 22px;
+}
+.tab-1, .tab-2, .tab-3 {
+    width: 80px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 10px;
+}
+#feature-1 {
+    padding: 50px 0;
+}
+.f1-left{
+    text-align: center;
+}
+#feature-2,#feature-3,#our-process,#testimonial{
+    padding: 80px 0 100px 0;
+}
+.f1-middile {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.f1-right{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.f1-middile p {
+    margin: 16px 0;
+}
+.f2-row{
+    flex-direction: column-reverse;
+}
+.f2-right{
+    padding: 20px 100px;
+}
+.f2-left{
+    text-align: center;
+    margin-top: 20px;
+}
+.f2-text {
+    padding: 0 0 0 50px;
+}
+.dots {
+    top: -6px;
+    left: 60px;
+}
+.f3-right .dots {
+    left: 60px;
+}
+.main-bottom .px-4 {
+    padding-right: 3.5rem!important;
+    padding-left: 3.5rem!important;
+}
+.main-top h1 {
+    font-size: 32px;
+}
+
+.main-bottom .py-5 {
+    padding-bottom: 0rem!important;
+}
+.test-1 .mx-5 {
+    margin-right: 5rem!important;
+    margin-left: 5rem!important;
+}
+.test-1 .my-4 {
+    margin-bottom: 0rem!important;
+}
+.custom-p{
+    margin: 0 90px;
+}
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 575px) and (max-width: 576px) {
+    .container{
+        padding: 0 20px;
+    }
+    .nav-item {
+        margin-left: 0px;
+    }
+    .navbar .container{
+        padding: 0px;
+    }
+    .pricing-bottom  .mx-5{
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+    #first-banare {
+        padding: 120px 0 60px 0;
+    }
+    #social-media .col-md-4 {
+        width: 40.333333%;
+    }
+    #social-media .col-md-8 {
+        width: 59.666667%;
+    }
+    .socil-icon ul li {
+        margin-left: 0px;
+    }
+    .socil-icon {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .sm-left p{
+        font-size: 12px;
+    }
+    .fb-left img{
+        width: 100px !important;
+    }
+    .fb-left h1 {
+    
+        margin-right: 0px;
+        font-size: 28px;
+    }
+    .fb-left p {
+        margin-right: 0px;
+    
+    }
+    .fb-right {     
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .b-form{
+        width: 95%;
+    }
+    .socil-icon ul li a i {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 28px;
+    }
+    .b-item1 h1 {
+        padding: 20px 22px;
+    }
+    .tab-1, .tab-2, .tab-3 {
+        width: 80px;
+        height: 70px;
+        line-height: 70px;
+        display: inline-block;
+        border-radius: 10px;
+    }
+    #feature-1 {
+        padding: 50px 0;
+    }
+    .f1-left{
+        text-align: center;
+    }
+    #feature-2,#feature-3,#our-process,#testimonial{
+        padding: 60px 0 80px 0;
+    }
+    #our-process{
+        padding-bottom: 50px;
+    }
+    .f1-middile {
+        text-align: center;
+        margin-top: 30px;
+        padding: 0 16px;
+    }
+    .f1-right{
+        text-align: center;
+        margin-top: 40px;
+    
+    }
+    .f1-middile h1{
+        font-size: 16px;
+    }
+    .f1-middile p {
+        margin: 16px 0;
+    }
+    .f2-row{
+        flex-direction: column-reverse;
+    }
+    .f2-right{
+        padding: 20px;
+    }
+    .f2-left{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .f2-text {
+        padding: 0 0 0 50px;
+    }
+    .dots {
+        top: -6px;
+        left: 16px;
+    }
+    .f3-right .dots {
+        left: 16px;
+    }
+    .main-bottom .px-4 {
+        padding-right: 3.5rem!important;
+        padding-left: 3.5rem!important;
+    }
+    .main-top h1 {
+        font-size: 24px;
+    }
+    
+    .main-bottom .py-5 {
+        padding-bottom: 0rem!important;
+    }
+    .test-1 .mx-5 {
+        margin-right: 1rem!important;
+        margin-left: 1rem!important;
+    }
+    .test-1 .my-4 {
+        margin-bottom: 0rem!important;
+    }
+    .custom-p{
+        margin: 0 32px;
+    }
+    .footer-icon ul li {
+        margin-left: 0px;
+    }
+    #contact {
+        padding: 40px 0;
+    }
+
+}
+@media (min-width: 349px) and (max-width: 575px) {
+
+/* CSS */
+.container{
+    padding: 0 20px;
+}
+.nav-item {
+    margin-left: 0px;
+}
+.navbar .container{
+    padding: 0px;
+}
+.pricing-bottom  .mx-5{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+#first-banare {
+    padding: 120px 0 60px 0;
+}
+#social-media .col-md-4 {
+    width: 40.333333%;
+}
+#social-media .col-md-8 {
+    width: 59.666667%;
+}
+.socil-icon ul li {
+    margin-left: 0px;
+}
+.socil-icon {
+    text-align: left;
+    margin-top: 20px;
+}
+.sm-left p{
+    font-size: 12px;
+}
+.fb-left img{
+    width: 100px !important;
+}
+.fb-left h1 {
+
+    margin-right: 0px;
+    font-size: 28px;
+}
+.fb-left p {
+    margin-right: 0px;
+
+}
+.fb-right {     
+    justify-content: center;
+    margin-top: 60px;
+}
+.b-form{
+    width: 95%;
+}
+.socil-icon ul li a i {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 28px;
+}
+.b-item1 h1 {
+    padding: 20px 22px;
+}
+.tab-1, .tab-2, .tab-3 {
+    width: 80px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 10px;
+}
+#feature-1 {
+    padding: 50px 0;
+}
+.f1-left{
+    text-align: center;
+}
+#feature-2,#feature-3,#our-process,#testimonial{
+    padding: 60px 0 80px 0;
+}
+#our-process{
+    padding-bottom: 50px;
+}
+.f1-middile {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 16px;
+}
+.f1-right{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.f1-middile h1{
+    font-size: 16px;
+}
+.f1-middile p {
+    margin: 16px 0;
+}
+.f2-row{
+    flex-direction: column-reverse;
+}
+.f2-right{
+    padding: 20px;
+}
+.f2-left{
+    text-align: center;
+    margin-top: 20px;
+}
+.f2-text {
+    padding: 0 0 0 50px;
+}
+.dots {
+    top: -6px;
+    left: 16px;
+}
+.f3-right .dots {
+    left: 16px;
+}
+.main-bottom .px-4 {
+    padding-right: 3.5rem!important;
+    padding-left: 3.5rem!important;
+}
+.main-top h1 {
+    font-size: 24px;
+}
+
+.main-bottom .py-5 {
+    padding-bottom: 0rem!important;
+}
+.test-1 .mx-5 {
+    margin-right: 1rem!important;
+    margin-left: 1rem!important;
+}
+.test-1 .my-4 {
+    margin-bottom: 0rem!important;
+}
+.custom-p{
+    margin: 0 32px;
+}
+.footer-icon ul li {
+    margin-left: 0px;
+}
+#contact {
+    padding: 40px 0;
+}
+
+}
+
+@media (min-width: 250px) and (max-width: 348px) {
+
+/* CSS */
+.container{
+    padding: 0 20px;
+}
+.nav-item {
+    margin-left: 0px;
+}
+.navbar .container{
+    padding: 0px;
+}
+.pricing-bottom .mt-5 {
+    margin-top: 1rem!important;
+}
+.pricing-bottom  .mx-5{
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+}
+#first-banare {
+    padding: 80px 0 60px 0;
+}
+#social-media .col-md-4 {
+    width: 40.333333%;
+}
+#social-media .col-md-8 {
+    width: 59.666667%;
+}
+.socil-icon ul li {
+    margin-left: 0px;
+}
+.socil-icon {
+    text-align: left;
+    margin-top: 20px;
+}
+.sm-left p{
+    font-size: 12px;
+}
+.fb-left img{
+    width: 100px !important;
+}
+.fb-left h1 {
+
+    margin-right: 0px;
+    font-size: 24px;
+}
+.fb-left p {
+    margin-right: 0px;
+
+}
+.fb-right {     
+    justify-content: center;
+    margin-top: 32px;
+}
+.b-form{
+    width: 95%;
+}
+.socil-icon ul li a i {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 16px;
+}
+.b-item1 h1 {
+    padding: 20px 22px;
+    font-size: 18px;
+
+}
+.tab-1, .tab-2, .tab-3 {
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 14px;
+}
+#feature-1 {
+    padding: 50px 0;
+}
+.f1-left{
+    text-align: center;
+}
+#feature-2,#feature-3,#our-process,#testimonial{
+    padding: 40px 0 60px 0;
+}
+#our-process{
+    padding-bottom: 50px;
+}
+.f1-middile {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 16px;
+}
+.f1-right{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.f1-middile h1{
+    font-size: 16px;
+}
+.f1-middile p {
+    margin: 16px 0;
+}
+.f2-row{
+    flex-direction: column-reverse;
+}
+.f2-right{
+    padding: 20px;
+}
+.f2-left{
+    text-align: center;
+    margin-top: 20px;
+}
+.f2-text {
+    padding: 10px 0 0 15px;
+}
+.dots {
+    top: -6px;
+    left: 16px;
+}
+.f3-right .dots {
+    left: 16px;
+}
+.main-bottom .px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.main-top h1 {
+    font-size: 18px;
+}
+
+.main-bottom .py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 0rem!important;
+}
+.test-1 .mx-5 {
+    margin-right: 1rem!important;
+    margin-left: 1rem!important;
+}
+.test-1 .my-4 {
+    margin-bottom: 0rem!important;
+}
+.custom-p{
+    margin: 0 32px;
+}
+.footer-icon ul li {
+    margin-left: 0px;
+}
+#contact .mx-5 {
+    margin-right: 0.5rem!important;
+    margin-left: 0.5rem!important;
+}
+#contact {
+    padding: 40px 0;
+}
+.line {
+    margin: 16px 0;
+}
+.line-1 {
+    margin: 12px auto;
+}
+.footer-icon ul li a i {
+    color: #cccccc;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+}
